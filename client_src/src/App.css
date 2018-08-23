@@ -1,0 +1,32 @@
+html{
+  font-family: 'sansation light';
+}
+
+.fa.fa-users, .fa.fa-plus {
+    font-size: 16px!important;
+}
+
+.fa-users::before,
+.fa.fa-plus::before,
+.fa-question-circle::before,
+.fa-chevron-left::before {
+    margin: 0 6px;
+}
+
+.sidenav li > a > i {
+    width: auto;
+}
+
+.font-nav {
+  font-family:sansation light;
+}
+
+.collection a.collection-item {
+    color: #039be5;
+}
+
+@media(max-width: 480px) {
+  nav .brand-logo {
+    font-size: 1rem;
+  }
+}
